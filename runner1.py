@@ -15,4 +15,4 @@ SpeedOfRunner = Distance / TimeTaken
 
 SpeedInMPH = SpeedOfRunner * MStoMPH
 
-print (NameOfRunner + " ran the 100M race in: 2" + str(round(SpeedInMPH)))
+print (NameOfRunner + " ran the 100M race in: " + str(round(SpeedInMPH,2)) + "MPH")  #
